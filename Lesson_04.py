@@ -106,7 +106,6 @@ for el in cycle(iter_list):
 # начиная с 1! и до n!.
 # Подсказка: факториал числа n — произведение чисел от 1 до n. Например, факториал четырёх 4! = 1 * 2 * 3 * 4 = 24.
 
-
 def fact(fact_num):
     temporal = 1
     for i in range(1, fact_num + 1):
